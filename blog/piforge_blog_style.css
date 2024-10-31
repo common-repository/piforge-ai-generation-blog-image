@@ -1,0 +1,63 @@
+#blog_container {
+  min-height: 80vh;
+  display: grid;
+  margin-top: 30px;
+}
+
+#cols_ontainer {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#left_col {
+  width: 30%;
+  max-height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin: 20px;
+}
+
+#editor_container {
+  display: block;
+  width: 65%;
+  max-height: 100%;
+  text-align: right;
+}
+
+#piforge_request_blog_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  align-items: start;
+}
+#piforge_request_blog_form * {
+  width: 240px;
+}
+#custom_notice {
+  display: none;
+}
+#generate__spinner {
+  margin: auto 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  #left_col {
+    min-width: 100%;
+    justify-content: center;
+  }
+
+  #piforge_request_blog_form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-wrap: wrap;
+  }
+
+  #editor_container {
+    width: 100%;
+  }
+}

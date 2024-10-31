@@ -1,0 +1,14 @@
+#piforge_api_key {
+  width: 100%;
+}
+#piforge_settings_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#piforge_settings_header img {
+  width: 120px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
